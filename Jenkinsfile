@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'AQAAABAAAAAwNzNPEf8cV+GsSoXnTYOqiE5FDEcL8CQKhvOTqjcO0va9UfnZtkUE97PW7Ihc+OjcoY9wDxYyNrlmzWeXSVtYig==', url: 'https://github.com/phaniapt/jenkins-task.git'
+                git branch: 'master', credentialsId: 'AQAAABAAAAAwNzNPEf8cV+GsSoXnTYOqiE5FDEcL8CQKhvOTqjcO0va9UfnZtkUE97PW7Ihc+OjcoY9wDxYyNrlmzWeXSVtYig==', url: 'https://github.com/phaniapt/jenkins-task.git'
             }
         }
         stage('AddMvn'){
