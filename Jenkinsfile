@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'zoheb', credentialsId: 'b3deed1b-58f4-4b84-b11d-a09754281597', url: 'https://github.com/cerebrone-ai/Cerebrone-training.git'
+                git branch: 'phani', credentialsId: 'AQAAABAAAAAwNzNPEf8cV+GsSoXnTYOqiE5FDEcL8CQKhvOTqjcO0va9UfnZtkUE97PW7Ihc+OjcoY9wDxYyNrlmzWeXSVtYig==', url: 'https://github.com/phaniapt/jenkins-task.git'
             }
         }
         stage('AddMvn'){
