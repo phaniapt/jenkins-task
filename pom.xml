@@ -59,12 +59,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://44.201.224.81:8081/repository/springboot-release/</url>
+            <url>http://35.154.232.145:8081/repository/springboot-release2/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://44.201.224.81:8081/repository/springboot-snap/</url>
+            <url>http://35.154.232.145:8081/repository/springboot-snapshot2/</url>
         </snapshotRepository>
    </distributionManagement>
 
