@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-     stage('ContinuousDownload-git')
+     stage('ContinuousDownload')
         {
             steps
             {
